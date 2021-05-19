@@ -10,10 +10,11 @@ export default () => (
     <div id="app">
         <h1>Fundamentos 3</h1>
 
-        <Card titulo="Exemplo de Card"></Card>
+        <Card titulo="Desafio Aleatorio">
+            <NumeroAleatorio min={1} max={20}/>
+        </Card>
 
-        <NumeroAleatorio min={1} max={20}></NumeroAleatorio>
         <ComParametro titulo="Componente com Título" subtitulo="Subtitulo do componente" />
-        <Primeiro></Primeiro>
+        <Primeiro/>
     </div>
 );
